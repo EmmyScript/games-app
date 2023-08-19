@@ -5,9 +5,9 @@
 }
 
 .navbars{
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: column;
   text-transform: uppercase;
-  color: blue;
+  color:red;
   
 }
