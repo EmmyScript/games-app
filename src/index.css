@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbars{
+  justify-content: space-around;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: blue;
+  
+}
