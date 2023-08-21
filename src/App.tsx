@@ -18,7 +18,7 @@ const App = () => {
   <Show>
   <GridItem area = "aside">
     <GenreList />
-    
+        
   </GridItem>
   </Show>
   <GridItem area = "main">
