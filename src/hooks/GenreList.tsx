@@ -1,15 +1,26 @@
+import { HStack, Image, List, ListItem, Spinner, Text} from "@chakra-ui/react";
 import useGenres from "./useGenres";
+import getCroppedImageUrl from "../component/services/image-url";
 
 const GenreList = () => {
-  const {data} = useGenres();
-
+  const {data, isLoading } = useGenres();
+  if(isLoading) return <Spinner />
   return (
     
-<ul>
+<List>
   
-  {data.map(genre => <li key={genre.id}>{genre.name}</li>)}
+  {data.map(genre => <ListItem key={genre.id} paddingY='6px'>
+    <HStack>
+      <Image boxSize="30px" borderRadius={5} 
+      //inside src {getCroppedImageurl} when i add url
+      src={(genre.image_background)} 
+      />
+      <Text fontSize='lg'>{genre.name}</Text>
 
-</ul>
+    </HStack>
+  </ListItem>)}
+
+</List>
     
       
   
