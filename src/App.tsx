@@ -39,6 +39,7 @@ templateColumns={{
   <GridItem area = "main">
     <PlatformSelector selectedPlatform = {gameQuery.platform} onSelectPlatform={(platform) => 
       setGameQuery({...gameQuery, platform})}/>
+      
     <GameGrid gameQuery ={gameQuery} />
   </GridItem>   
 </Grid>
