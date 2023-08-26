@@ -8,6 +8,11 @@
   justify-content: space-between;
   flex-direction: column;
   text-transform: uppercase;
-  color:red;
+  margin-left: 5px;
+  color:#fff;
   
+}
+
+.form {
+  width: 100%;
 }
