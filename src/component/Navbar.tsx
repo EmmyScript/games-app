@@ -6,9 +6,10 @@ import Logo from './Logo'
 import SearchInput from './SearchInput';
 interface Props {
   onSearch: (searchText: string) => void;
+  
 }
 
-const Navbar = ({onSearch} : Props) => {
+const Navbar = ({onSearch} : Props) =>{
   return (
     <div className='navbars'>
     <HStack  justifyContent="space-between">
