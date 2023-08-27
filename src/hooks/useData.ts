@@ -41,3 +41,18 @@ setLoading(true);
 }
 
 export default useData;
+
+/*rr 
+const [games setGames] =useState([])
+const[error, setError] = useState('')
+
+const useEffect(() => {
+    const controller = new Abortcontroller();
+    apiClent
+    .get('/games', signal: c.s)
+    .then((res) => setGames(res.data.result))
+    .catch((err)=> setError(err.message))
+    return controller.abort()
+},[])
+ret{games,  error}
+*/
