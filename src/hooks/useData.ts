@@ -54,5 +54,5 @@ const useEffect(() => {
     .catch((err)=> setError(err.message))
     return controller.abort()
 },[])
-ret{games,  error}
+ret{games,  error }
 */

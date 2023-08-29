@@ -27,6 +27,8 @@ export interface Game {
 
         }, 
    [gameQuery]
-   )
+   );
 
 export default useGames; 
+
+/*params: is a property in axiosConfig object  */
